@@ -30,7 +30,6 @@
 
 문의 사항이나 지원이 필요하면 [sgwwg123@gmail.com](mailto:sgwwg123@gmail.com)으로 연락해 주세요.
 
----
 ## 개발 기간
 - 2024-01-01 ~
 
