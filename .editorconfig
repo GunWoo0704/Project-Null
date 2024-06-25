@@ -1,0 +1,85 @@
+# .editorconfig
+
+# 이 파일이 최상위 .editorconfig 파일임을 나타냅니다.
+root = true
+
+# 모든 파일에 대한 전역 설정
+[*]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+end_of_line = lf              # 줄 끝에 라인 피드(LF) 사용
+charset = utf-8               # UTF-8 문자 인코딩 사용
+trim_trailing_whitespace = true # 끝에 있는 공백 제거
+insert_final_newline = true   # 파일 끝에 새 줄 추가
+
+# C 및 C++ 파일에 대한 설정
+[*.{h,hpp,cpp,c}]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+max_line_length = 120         # 최대 줄 길이를 120자로 설정
+insert_final_newline = true   # 파일 끝에 새 줄 추가
+
+# INI 파일에 대한 설정
+[*.{ini}]
+indent_style = tab            # 들여쓰기에 탭 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 탭으로 설정
+insert_final_newline = true   # 파일 끝에 새 줄 추가
+
+# 텍스트 및 마크다운 파일에 대한 설정
+[*.{txt,md}]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+insert_final_newline = true   # 파일 끝에 새 줄 추가
+
+# 언리얼 엔진 코딩 표준에 따른 설정
+[Source/*]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+
+[Source/*.cpp]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+
+[Source/*.h]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+
+[Plugins/*/Source/*]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+
+[Plugins/*/Source/*.cpp]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+
+[Plugins/*/Source/*.h]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+
+# 언리얼 엔진 코딩 표준에 따른 추가 설정
+# 헤더 파일의 주석 스타일
+[*.{h,hpp}]
+insert_final_newline = true   # 파일 끝에 새 줄 추가
+max_line_length = 120         # 최대 줄 길이를 120자로 설정
+
+# 소스 파일의 주석 스타일
+[*.cpp]
+insert_final_newline = true   # 파일 끝에 새 줄 추가
+max_line_length = 120         # 최대 줄 길이를 120자로 설정
+
+# Blueprint 관련 설정
+[*.{uasset,umap}]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+
+# JSON 파일에 대한 설정
+[*.json]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+insert_final_newline = true   # 파일 끝에 새 줄 추가
+
+# XML 파일에 대한 설정
+[*.xml]
+indent_style = space          # 들여쓰기에 공백 사용
+indent_size = 4               # 들여쓰기 크기를 4칸 공백으로 설정
+insert_final_newline = true   # 파일 끝에 새 줄 추가
