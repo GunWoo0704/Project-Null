@@ -7,8 +7,8 @@ public class Project_Null : ModuleRules
 	public Project_Null(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "AIModule", "GameplayTasks", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
