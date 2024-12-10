@@ -1,14 +1,14 @@
 #include "MyCharacter.h"
+#include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "TimerManager.h"
-#include "Animation/AnimInstance.h"
+#include "Kismet/GameplayStatics.h"
+#include "EngineUtils.h" // TActorIterator 사용을 위해 필요
+#include "Animation/AnimInstance.h" // UAnimInstance를 위해 필요
 
 AMyCharacter::AMyCharacter()
 {
+	// Tick 함수 활성화
 	PrimaryActorTick.bCanEverTick = true;
-
-	// 기본 대시 가능 상태
-	bCanDash = true;
 }
 
 void AMyCharacter::BeginPlay()
@@ -19,54 +19,67 @@ void AMyCharacter::BeginPlay()
 void AMyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	// 필요 시 특정 조건에서 호출 가능
+	// FreezeAllOtherCharacters();
+	// UnfreezeAllOtherCharacters();
 }
 
-void AMyCharacter::Dash()
+void AMyCharacter::FreezeAllOtherCharacters()
 {
-	// 캐릭터가 공중에 있지 않고 대시 가능할 때만 실행
-	if (bCanDash && GetCharacterMovement()->IsFalling() == false)
+	// 현재 플레이어 캐릭터 가져오기
+	ACharacter* PlayerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+
+	if (!PlayerCharacter)
+		return;
+
+	// 월드에 존재하는 모든 ACharacter 순회
+	for (TActorIterator<ACharacter> It(GetWorld()); It; ++It)
 	{
-		// 캐릭터가 바라보는 방향을 가져옴
-		FVector DashDirection = GetActorForwardVector();
-		DashDirection.Z = 0; // Z 축 고정
+		ACharacter* Character = *It;
 
-		// 속도 조절을 위한 처리
-		FVector LaunchVelocity = DashDirection.GetSafeNormal() * DashDistance * DashSpeedMultiplier;
-		LaunchVelocity.Z = 0; // Z 축을 0으로 고정
+		// 플레이어 캐릭터는 제외
+		if (Character == PlayerCharacter)
+			continue;
 
-		// 캐릭터를 바라보는 방향으로 대시
-		LaunchCharacter(LaunchVelocity, true, true);
-
-		// 대시 애니메이션 몽타주 재생
-		if (DashMontage && GetMesh() && GetMesh()->GetAnimInstance())
+		// 다른 캐릭터의 Movement Component 비활성화
+		UCharacterMovementComponent* MovementComponent = Character->GetCharacterMovement();
+		if (MovementComponent)
 		{
-			GetMesh()->GetAnimInstance()->Montage_Play(DashMontage);
+			MovementComponent->Deactivate();
 		}
 
-		// 대시 불가능하게 설정 후, 쿨타임 후 다시 가능하도록 함
-		bCanDash = false;
-
-		// FTimerHandle 선언
-		FTimerHandle DashTimerHandle;
-		GetWorldTimerManager().SetTimer(
-			DashTimerHandle,
-			this,
-			&AMyCharacter::ResetDash,
-			DashCooldown,
-			false
-		);
+		// 애니메이션 몽타주 멈춤
+		UAnimInstance* AnimInstance = Character->GetMesh()->GetAnimInstance();
+		if (AnimInstance && AnimInstance->Montage_IsPlaying(nullptr))
+		{
+			AnimInstance->Montage_Stop(0.2f); // 0.2초의 블렌드 아웃 시간
+		}
 	}
 }
 
-void AMyCharacter::ResetDash()
+void AMyCharacter::UnfreezeAllOtherCharacters()
 {
-	bCanDash = true;
-}
+	// 현재 플레이어 캐릭터 가져오기
+	ACharacter* PlayerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 
-void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	if (!PlayerCharacter)
+		return;
 
-	// 우클릭 (Right Mouse Button) 입력 바인딩
-	PlayerInputComponent->BindAction("RightMouse", IE_Pressed, this, &AMyCharacter::Dash);
+	// 월드에 존재하는 모든 ACharacter 순회
+	for (TActorIterator<ACharacter> It(GetWorld()); It; ++It)
+	{
+		ACharacter* Character = *It;
+
+		// 플레이어 캐릭터는 제외
+		if (Character == PlayerCharacter)
+			continue;
+
+		// 다른 캐릭터의 Movement Component 다시 활성화
+		UCharacterMovementComponent* MovementComponent = Character->GetCharacterMovement();
+		if (MovementComponent)
+		{
+			MovementComponent->Activate();
+		}
+	}
 }
