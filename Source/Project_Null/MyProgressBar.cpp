@@ -1,5 +1,6 @@
-#include "MyProgressBar.h"
+ï»¿#include "MyProgressBar.h"
 #include "Components/ProgressBar.h"
+#include "Components/Image.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogMyProgressBar, Log, All);
 
@@ -32,7 +33,7 @@ void UMyProgressBar::UpdateProgress1()
 {
 	float CurrentTime = GetWorld()->GetTimeSeconds();
 	float ElapsedTime = CurrentTime - StartTime1;
-	float NewPercent = 1.0f - (ElapsedTime / 3.2f);  // 3.2ÃÊ¿¡ ¸ÂÃá °¨¼ÒÀ² °è»ê
+	float NewPercent = 1.0f - (ElapsedTime / 3.2f);
 
 	UE_LOG(LogMyProgressBar, Log, TEXT("Progress Bar 1 - Elapsed Time: %f, New Percent: %f"), ElapsedTime, NewPercent);
 
@@ -80,4 +81,33 @@ void UMyProgressBar::UpdateProgress3()
 	}
 
 	ProgressBar3->SetPercent(FMath::Clamp(NewPercent, 0.0f, 1.0f));
+}
+
+// ë‚™í•˜ ìƒíƒœ ë³€ê²½
+void UMyProgressBar::SetFallingState(bool bFalling)
+{
+	bIsFalling = bFalling;
+	UpdateImageState();
+}
+
+// ì´ë¯¸ì§€ ìƒíƒœ ì—…ë°ì´íŠ¸
+void UMyProgressBar::UpdateImageState()
+{
+	if (FallingImage && NormalImage && GroundImage && AirImage)
+	{
+		if (bIsFalling)
+		{
+			FallingImage->SetVisibility(ESlateVisibility::Visible);
+			NormalImage->SetVisibility(ESlateVisibility::Hidden);
+			AirImage->SetVisibility(ESlateVisibility::Visible);
+			GroundImage->SetVisibility(ESlateVisibility::Hidden);
+		}
+		else
+		{
+			FallingImage->SetVisibility(ESlateVisibility::Hidden);
+			NormalImage->SetVisibility(ESlateVisibility::Visible);
+			AirImage->SetVisibility(ESlateVisibility::Hidden);
+			GroundImage->SetVisibility(ESlateVisibility::Visible);
+		}
+	}
 }
