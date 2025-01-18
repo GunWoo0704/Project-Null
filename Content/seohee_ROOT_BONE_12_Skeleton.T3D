@@ -1,0 +1,5 @@
+Begin Object Class=/Script/Engine.Skeleton Name="seohee_ROOT_BONE_12_Skeleton" ExportPath=/Script/Engine.Skeleton'"/Game/seohee_ROOT_BONE_12_Skeleton.seohee_ROOT_BONE_12_Skeleton"'
+   BoneTree(72)=()
+   CompatibleSkeletons(0)="/Game/seohee_ROOT_BONE_12_Skeleton.seohee_ROOT_BONE_12_Skeleton"
+   PreviewSkeletalMesh="/Game/seohee_ROOT_BONE_12.seohee_ROOT_BONE_12"
+End Object

@@ -1,0 +1,269 @@
+Begin Object Class=/Script/Engine.PhysicsAsset Name="seohee_ROOT_BONE_12_PhysicsAsset" ExportPath=/Script/Engine.PhysicsAsset'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset"'
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_10" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_10"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_11" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_11"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_12" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_12"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_13" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_13"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_14" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_14"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_15" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_15"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_16" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_16"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_17" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_17"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_18" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_18"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_19" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_19"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_20" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_20"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_22" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_22"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_5" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_5"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_6" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_6"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_8" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_8"'
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_9" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_9"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_0" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_0"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_10" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_10"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_11" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_11"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_12" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_12"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_13" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_13"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_14" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_14"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_15" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_15"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_17" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_17"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_18" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_18"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_19" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_19"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_20" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_20"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_21" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_21"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_22" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_22"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_23" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_23"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_6" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_6"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_7" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_7"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_9" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_9"'
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_10" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_10"'
+      DefaultInstance=(JointName="Head",ConstraintBone1="Head",ConstraintBone2="Hips",Pos2=(X=90.624710,Y=12.718443,Z=0.000154),PriAxis2=(X=0.986760,Y=-0.162188,Z=0.000001),SecAxis2=(X=0.162188,Y=0.986760,Z=0.000004),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_11" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_11"'
+      DefaultInstance=(JointName="Bone_Hair_R_02",ConstraintBone1="Bone_Hair_R_02",ConstraintBone2="Head",Pos2=(X=11.577458,Y=-1.390217,Z=-12.036317),PriAxis2=(X=-0.935247,Y=-0.335982,Z=-0.111489),SecAxis2=(X=0.136281,Y=-0.051056,Z=-0.989354),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_12" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_12"'
+      DefaultInstance=(JointName="Bone_Hair_L_02",ConstraintBone1="Bone_Hair_L_02",ConstraintBone2="Head",Pos2=(X=11.577437,Y=-1.390201,Z=12.032723),PriAxis2=(X=-0.935247,Y=-0.335982,Z=0.111490),SecAxis2=(X=0.136281,Y=-0.051053,Z=0.989354),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_13" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_13"'
+      DefaultInstance=(JointName="Bone_Hair_B_01",ConstraintBone1="Bone_Hair_B_01",ConstraintBone2="Head",Pos2=(X=18.306097,Y=13.941262,Z=-0.001800),PriAxis2=(X=-0.998183,Y=-0.060259,Z=0.000000),SecAxis2=(X=-0.060259,Y=0.998183,Z=-0.000002),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_14" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_14"'
+      DefaultInstance=(JointName="RightUpLeg",ConstraintBone1="RightUpLeg",ConstraintBone2="Hips",Pos2=(X=0.000025,Y=0.000015,Z=-14.942289),PriAxis2=(X=-0.983068,Y=-0.180472,Z=-0.031752),SecAxis2=(X=-0.180493,Y=0.983574,Z=-0.002215),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_15" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_15"'
+      DefaultInstance=(JointName="Bone_Bust_L",ConstraintBone1="Bone_Bust_L",ConstraintBone2="Hips",Pos2=(X=57.245336,Y=1.687858,Z=9.289312),PriAxis2=(X=-0.153349,Y=-0.969613,Z=0.190619),SecAxis2=(X=-0.988131,Y=0.152222,Z=-0.020630),ProfileInstance=(LinearLimit=(Limit=3.000000,XMotion=LCM_Limited,ZMotion=LCM_Limited,Restitution=0.400000),ConeLimit=(Swing1Motion=ACM_Locked,Swing2Motion=ACM_Locked),TwistLimit=(TwistMotion=ACM_Locked),LinearDrive=(XDrive=(Stiffness=3000.000000,bEnablePositionDrive=True),YDrive=(Stiffness=3000.000000),ZDrive=(Stiffness=3000.000000,bEnablePositionDrive=True))))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_16" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_16"'
+      DefaultInstance=(JointName="RightLeg",ConstraintBone1="RightLeg",ConstraintBone2="RightUpLeg",Pos2=(X=69.775276,Y=0.000001,Z=-0.000000),PriAxis2=(X=0.985841,Y=0.167683,Z=0.000000),SecAxis2=(X=-0.167683,Y=0.985841,Z=0.000000),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_17" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_17"'
+      DefaultInstance=(JointName="RightFoot",ConstraintBone1="RightFoot",ConstraintBone2="RightLeg",Pos2=(X=65.633430,Y=-0.000002,Z=0.000001),PriAxis2=(X=0.993419,Y=-0.110027,Z=-0.031825),SecAxis2=(X=0.100162,Y=0.969303,Z=-0.224544),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_18" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_18"'
+      DefaultInstance=(JointName="LeftUpLeg",ConstraintBone1="LeftUpLeg",ConstraintBone2="Hips",Pos2=(X=-0.000024,Y=-0.000029,Z=14.942290),PriAxis2=(X=-0.983068,Y=-0.180472,Z=0.031748),SecAxis2=(X=-0.180493,Y=0.983574,Z=0.002218),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_19" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_19"'
+      DefaultInstance=(JointName="LeftLeg",ConstraintBone1="LeftLeg",ConstraintBone2="LeftUpLeg",Pos2=(X=69.775276,Y=0.000000,Z=-0.000001),PriAxis2=(X=0.985841,Y=0.167683,Z=0.000000),SecAxis2=(X=-0.167683,Y=0.985841,Z=0.000000),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_20" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_20"'
+      DefaultInstance=(JointName="LeftFoot",ConstraintBone1="LeftFoot",ConstraintBone2="LeftLeg",Pos2=(X=65.633430,Y=-0.000002,Z=0.000000),PriAxis2=(X=0.993419,Y=-0.110027,Z=0.031825),SecAxis2=(X=0.100162,Y=0.969302,Z=0.224546),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_22" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_22"'
+      DefaultInstance=(JointName="Bone_Bust_R",ConstraintBone1="Bone_Bust_R",ConstraintBone2="Hips",Pos2=(X=57.245347,Y=1.687910,Z=-9.292705),PriAxis2=(X=-0.153349,Y=-0.969611,Z=-0.190625),SecAxis2=(X=-0.988131,Y=0.152223,Z=0.020629),ProfileInstance=(LinearLimit=(Limit=3.000000,XMotion=LCM_Limited,ZMotion=LCM_Limited,Restitution=0.400000),ConeLimit=(Swing1Motion=ACM_Locked,Swing2Motion=ACM_Locked),TwistLimit=(TwistMotion=ACM_Locked),LinearDrive=(XDrive=(Stiffness=3000.000000,bEnablePositionDrive=True),YDrive=(Stiffness=3000.000000),ZDrive=(Stiffness=3000.000000,bEnablePositionDrive=True))))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_5" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_5"'
+      DefaultInstance=(JointName="RightForeArm",ConstraintBone1="RightForeArm",ConstraintBone2="Hips",Pos2=(X=41.196641,Y=7.339599,Z=-41.817305),PriAxis2=(X=-0.653701,Y=-0.406587,Z=-0.638249),SecAxis2=(X=0.389878,Y=-0.903805,Z=0.176439),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_6" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_6"'
+      DefaultInstance=(JointName="RightHand",ConstraintBone1="RightHand",ConstraintBone2="RightForeArm",Pos2=(X=39.913605,Y=-0.000001,Z=-0.000004),PriAxis2=(X=0.994566,Y=-0.102520,Z=0.018126),SecAxis2=(X=0.000083,Y=-0.173324,Z=-0.984865),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_8" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_8"'
+      DefaultInstance=(JointName="LeftForeArm",ConstraintBone1="LeftForeArm",ConstraintBone2="Hips",Pos2=(X=41.196540,Y=7.339481,Z=41.817444),PriAxis2=(X=-0.653702,Y=-0.406589,Z=0.638246),SecAxis2=(X=0.389879,Y=-0.903805,Z=-0.176440),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_9" ExportPath=/Script/Engine.PhysicsConstraintTemplate'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:PhysicsConstraintTemplate_9"'
+      DefaultInstance=(JointName="LeftHand",ConstraintBone1="LeftHand",ConstraintBone2="LeftForeArm",Pos2=(X=39.913609,Y=-0.000002,Z=-0.000007),PriAxis2=(X=0.994566,Y=-0.102520,Z=-0.018126),SecAxis2=(X=0.000083,Y=-0.173324,Z=0.984865),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="SkeletalBodySetup_0" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_0"'
+      AggGeom=(SphylElems=((Center=(X=3.910522,Y=3.063458,Z=0.708291),Rotation=(Pitch=-0.424882,Yaw=156.096317,Roll=177.831689),Radius=18.759008,Length=27.620443)))
+      BoneName="Hips"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_10" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_10"'
+      AggGeom=(SphylElems=((Center=(X=12.764331,Y=-2.320715,Z=-0.437190),Rotation=(Pitch=0.000000,Yaw=77.678117,Roll=-87.052849),Radius=5.990434,Length=15.045780)))
+      BoneName="LeftHand"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_11" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_11"'
+      AggGeom=(SphylElems=((Center=(X=12.428632,Y=-1.021618,Z=0.010726),Rotation=(Pitch=-0.000000,Yaw=72.333481,Roll=-89.630394),Radius=17.158144,Length=18.888319)))
+      BoneName="Head"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_12" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_12"'
+      AggGeom=(SphylElems=((Center=(X=8.706682,Y=-4.805716,Z=0.708819),Rotation=(Pitch=-21.958339,Yaw=-90.000000,Roll=33.226974),Radius=9.068056,Length=13.664660)))
+      BoneName="Bone_Hair_R_02"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_13" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_13"'
+      AggGeom=(SphylElems=((Center=(X=7.840339,Y=-3.054624,Z=-0.919508),Rotation=(Pitch=2.024795,Yaw=-90.000000,Roll=4.092539),Radius=7.910780,Length=12.176986)))
+      BoneName="Bone_Hair_L_02"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_14" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_14"'
+      AggGeom=(SphylElems=((Center=(X=12.365058,Y=-3.216569,Z=-0.286271),Rotation=(Pitch=0.000000,Yaw=70.023462,Roll=-88.034332),Radius=9.854503,Length=11.960775)))
+      BoneName="Bone_Hair_B_01"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_15" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_15"'
+      AggGeom=(SphylElems=((Center=(X=29.455616,Y=2.211137,Z=-1.143886),Rotation=(Pitch=0.000000,Yaw=-82.354819,Roll=-82.847800),Radius=17.217360,Length=36.819405)))
+      BoneName="RightUpLeg"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_17" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_17"'
+      AggGeom=(SphylElems=((Center=(X=32.447279,Y=3.885028,Z=-0.170803),Rotation=(Pitch=-0.000000,Yaw=87.799633,Roll=-89.898071),Radius=10.504595,Length=34.903004)))
+      BoneName="RightLeg"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_18" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_18"'
+      AggGeom=(SphylElems=((Center=(X=18.033241,Y=-12.942336,Z=0.247986),Rotation=(Pitch=0.000000,Yaw=-160.589907,Roll=-87.578764),Radius=15.334304,Length=21.363993)))
+      BoneName="RightFoot"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_19" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_19"'
+      AggGeom=(SphylElems=((Center=(X=28.564516,Y=3.281925,Z=1.845457),Rotation=(Pitch=0.000000,Yaw=103.938771,Roll=-79.290386),Radius=17.978624,Length=37.257122)))
+      BoneName="LeftUpLeg"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_20" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_20"'
+      AggGeom=(SphylElems=((Center=(X=32.447938,Y=3.881107,Z=0.175970),Rotation=(Pitch=-0.000000,Yaw=-92.213429,Roll=-89.903334),Radius=10.508069,Length=34.901695)))
+      BoneName="LeftLeg"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_21" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_21"'
+      AggGeom=(SphylElems=((Center=(X=18.033990,Y=-12.941965,Z=-0.248541),Rotation=(Pitch=-0.000000,Yaw=19.413337,Roll=-87.559181),Radius=15.334267,Length=21.364326)))
+      BoneName="LeftFoot"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_22" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_22"'
+      AggGeom=(SphylElems=((Center=(X=12.274860,Y=1.472863,Z=-0.411715),Rotation=(Pitch=0.000000,Yaw=0.000000,Roll=0.000000),Radius=10.500000,Length=0.000000,Name="Bone_Bust_L_capsule")))
+      BoneName="Bone_Bust_L"
+      PhysicsType=PhysType_Simulated
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_23" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_23"'
+      AggGeom=(SphylElems=((Center=(X=12.264347,Y=2.133012,Z=0.647876),Rotation=(Pitch=-0.000000,Yaw=-0.000013,Roll=0.000003),Radius=10.500000,Length=0.000000,Name="Bone_Bust_L_capsule")))
+      BoneName="Bone_Bust_R"
+      PhysicsType=PhysType_Simulated
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_6" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_6"'
+      AggGeom=(SphylElems=((Center=(X=16.232956,Y=0.354753,Z=-1.333527),Rotation=(Pitch=0.000000,Yaw=89.023337,Roll=-89.792041),Radius=13.023884,Length=23.679077)))
+      BoneName="RightForeArm"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_7" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_7"'
+      AggGeom=(SphylElems=((Center=(X=12.766589,Y=-2.316507,Z=0.436737),Rotation=(Pitch=0.000000,Yaw=-102.351026,Roll=-87.056205),Radius=5.989577,Length=15.046608)))
+      BoneName="RightHand"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_9" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/seohee_ROOT_BONE_12_PhysicsAsset.seohee_ROOT_BONE_12_PhysicsAsset:SkeletalBodySetup_9"'
+      AggGeom=(SphylElems=((Center=(X=17.478151,Y=0.290820,Z=1.364578),Rotation=(Pitch=-0.000000,Yaw=-90.519228,Roll=-89.113475),Radius=13.049011,Length=22.412989)))
+      BoneName="LeftForeArm"
+      PhysicsType=PhysType_Kinematic
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   PreviewSkeletalMesh="/Game/seohee_ROOT_BONE_12.seohee_ROOT_BONE_12"
+   BoundsBodies(0)=0
+   BoundsBodies(1)=1
+   BoundsBodies(2)=2
+   BoundsBodies(3)=3
+   BoundsBodies(4)=4
+   BoundsBodies(5)=5
+   BoundsBodies(6)=6
+   BoundsBodies(7)=7
+   BoundsBodies(8)=8
+   BoundsBodies(9)=9
+   BoundsBodies(10)=10
+   BoundsBodies(11)=11
+   BoundsBodies(12)=12
+   BoundsBodies(13)=13
+   BoundsBodies(14)=14
+   BoundsBodies(15)=15
+   BoundsBodies(16)=16
+   SkeletalBodySetups(0)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_0"'
+   SkeletalBodySetups(1)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_6"'
+   SkeletalBodySetups(2)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_7"'
+   SkeletalBodySetups(3)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_9"'
+   SkeletalBodySetups(4)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_10"'
+   SkeletalBodySetups(5)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_11"'
+   SkeletalBodySetups(6)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_12"'
+   SkeletalBodySetups(7)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_13"'
+   SkeletalBodySetups(8)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_14"'
+   SkeletalBodySetups(9)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_15"'
+   SkeletalBodySetups(10)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_17"'
+   SkeletalBodySetups(11)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_18"'
+   SkeletalBodySetups(12)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_19"'
+   SkeletalBodySetups(13)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_20"'
+   SkeletalBodySetups(14)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_21"'
+   SkeletalBodySetups(15)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_22"'
+   SkeletalBodySetups(16)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_23"'
+   ConstraintSetup(0)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_5"'
+   ConstraintSetup(1)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_6"'
+   ConstraintSetup(2)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_8"'
+   ConstraintSetup(3)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_9"'
+   ConstraintSetup(4)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_10"'
+   ConstraintSetup(5)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_11"'
+   ConstraintSetup(6)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_12"'
+   ConstraintSetup(7)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_13"'
+   ConstraintSetup(8)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_14"'
+   ConstraintSetup(9)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_16"'
+   ConstraintSetup(10)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_17"'
+   ConstraintSetup(11)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_18"'
+   ConstraintSetup(12)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_19"'
+   ConstraintSetup(13)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_20"'
+   ConstraintSetup(14)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_22"'
+   ConstraintSetup(15)=/Script/Engine.PhysicsConstraintTemplate'"PhysicsConstraintTemplate_15"'
+End Object
